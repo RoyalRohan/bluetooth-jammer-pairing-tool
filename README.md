@@ -31,14 +31,19 @@ pip install -r requirements.txt
 ### Quick Start
 
 # Basic jamming
+```bash
 python bluetooth_jammer.py -t "00:11:22:33:44:55"
-
+```
 # Advanced jamming with pairing
+```bash
 python bluetooth_jammer.py -t "00:11:22:33:44:55,AA:BB:CC:DD:EE:FF" --pair
+```
 
 # Custom packet crafting
+```bash
 python bluetooth_jammer.py -t "00:11:22:33:44:55" --custom-packets
 Options
+```
 -t, --targets: Comma-separated MAC addresses (required)
 --pair: Enable pairing with target devices
 --custom-packets: Enable custom packet crafting
