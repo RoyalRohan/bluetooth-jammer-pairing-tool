@@ -1,2 +1,29 @@
-# bluetooth-jammer-pairing-tool
-"Bluetooth Jammer and Pairing Tool" is a Python-based solution for jamming Bluetooth traffic from specified devices and pairing with target devices. Supports multi-target operation, custom packet crafting, and detailed logging. Ideal for Bluetooth security research, penetration testing, and protocol analysis.
+# Bluetooth Jammer and Pairing Tool
+
+A Python-based tool for jamming Bluetooth devices and pairing with target devices.
+
+## Overview
+This tool allows security researchers and developers to:
+- Jam Bluetooth traffic from specified devices
+- Pair with target devices programmatically
+- Craft custom Bluetooth packets for testing
+- Log jamming/pairing events for analysis
+
+## Features
+- Multi-target device support
+- Custom packet crafting capabilities
+- Detailed logging functionality
+- Error handling and graceful failure recovery
+- Cross-platform compatibility
+
+## Requirements
+- Python 3.7+
+- Scapy library
+- Linux kernel with Bluetooth support (tested on Ubuntu 20.04+)
+- Bluetooth adapter with HCI monitor support
+
+## Installation
+```bash
+git clone https://github.com/yourusername/bluetooth-jammer-pairing-tool.git
+cd bluetooth-jammer-pairing-tool
+pip install -r requirements.txt
