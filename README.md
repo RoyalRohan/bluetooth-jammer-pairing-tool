@@ -27,3 +27,24 @@ This tool allows security researchers and developers to:
 git clone https://github.com/yourusername/bluetooth-jammer-pairing-tool.git
 cd bluetooth-jammer-pairing-tool
 pip install -r requirements.txt
+
+## Quick Start
+bash
+Download
+Copy code
+# Basic jamming
+python bluetooth_jammer.py -t "00:11:22:33:44:55"
+
+# Advanced jamming with pairing
+python bluetooth_jammer.py -t "00:11:22:33:44:55,AA:BB:CC:DD:EE:FF" --pair
+
+# Custom packet crafting
+python bluetooth_jammer.py -t "00:11:22:33:44:55" --custom-packets
+Options
+-t, --targets: Comma-separated MAC addresses (required)
+--pair: Enable pairing with target devices
+--custom-packets: Enable custom packet crafting
+--log-level: Logging verbosity (debug/info/warn/error)
+--config-file: Load configuration from file
+Logging
+All activities are logged to bluetooth_jammer.log with timestamp and metadata.
