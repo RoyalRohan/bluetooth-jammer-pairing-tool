@@ -27,11 +27,9 @@ This tool allows security researchers and developers to:
 git clone https://github.com/yourusername/bluetooth-jammer-pairing-tool.git
 cd bluetooth-jammer-pairing-tool
 pip install -r requirements.txt
+```
+### Quick Start
 
-## Quick Start
-bash
-Download
-Copy code
 # Basic jamming
 python bluetooth_jammer.py -t "00:11:22:33:44:55"
 
