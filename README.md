@@ -24,7 +24,7 @@ This tool allows security researchers and developers to:
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/bluetooth-jammer-pairing-tool.git
+git clone https://github.com/RoyalRohan/bluetooth-jammer-pairing-tool.git
 cd bluetooth-jammer-pairing-tool
 pip install -r requirements.txt
 ```
